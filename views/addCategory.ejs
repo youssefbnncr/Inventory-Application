@@ -1,0 +1,14 @@
+<form action="/addCategory" method="post">
+    <input type="text" name="category_name" placeholder="Category name">
+    <input type="submit" value="Add">
+</form>
+<%# errors %>
+<% if (error.length > 0) { %>
+  <ul>
+    <% error.forEach(function(err) { %>
+      <li><%= err %></li>
+    <% }); %>
+  </ul>
+<% } %>
+<%# categories %>
+<a href="/">Return</a>

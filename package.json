@@ -2,11 +2,8 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
-    "env": "^0.0.2",
     "express": "^5.1.0",
-    "express-validation": "^4.1.1",
     "express-validator": "^7.2.1",
-    "pg": "^8.15.6",
-    "postgres": "^3.4.5"
+    "pg": "^8.15.6"
   }
 }

@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>index</title>
 </head>
 <body>
-    <a href="/signup">add_user</a>
+    <h2>Categories</h2>
+    <hr>
+    <%- include('partials/categories.ejs', {}) %>
+    <a href="/addCategory">Add Category</a>
 </body>
 </html>
